@@ -4675,6 +4675,7 @@
           },
           "top_k": {
             "type": "integer",
+            "minimum": 1.0,
             "title": "Top K",
             "description": "\n    The maximum number of memories to return in the search results.\n    ",
             "default": 10,
